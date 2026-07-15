@@ -1,0 +1,22 @@
+# Framework UI
+streamlit
+
+# Google GenAI Core and LangChain Integrations
+google-genai
+langchain-google-genai
+langchain-core
+langchain-community
+
+# Backward-compatibility layer for legacy chains (RetrievalQA, EnsembleRetriever)
+langchain-classic
+
+# Document Processing & PDF Text Extraction
+pymupdf
+nltk
+
+# Vector Database Backend
+faiss-cpu
+
+# Database Core Client
+supabase
+requests
