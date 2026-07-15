@@ -4,6 +4,7 @@ streamlit
 # Google GenAI Core and LangChain Integrations
 google-genai
 langchain-google-genai
+langchain-groq
 langchain-core
 langchain-community
 
