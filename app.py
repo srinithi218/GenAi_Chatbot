@@ -25,6 +25,7 @@ if "chat_history" not in st.session_state:
 
 # 🎬 2. Safe Secrets Verification
 GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
