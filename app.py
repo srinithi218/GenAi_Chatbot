@@ -66,7 +66,7 @@ def process_and_index_pdf(uploaded_file):
     vector_retriever = vector_db.as_retriever(search_kwargs={"k": 3})
 
     # Initialize Gemini 2.5 Flash Model Core
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=GOOGLE_API_KEY)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash", google_api_key=GOOGLE_API_KEY)
 
     # Build prompt configurations
     template = """You are a question bank expert chatbot. Use only the source data provided to answer the queries.
